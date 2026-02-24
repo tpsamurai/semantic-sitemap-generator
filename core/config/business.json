@@ -1,1 +1,14 @@
-
+{
+  "name": "Your Company Name",
+  "description": "Describe what your company does in 1-2 sentences",
+  "mission": "Your mission statement",
+  "products": ["Product One", "Product Two"],
+  "services": ["Service One", "Service Two"],
+  "industry": "Your Industry",
+  "founded": "2020",
+  "contact": {
+    "email": "hello@yourcompany.com",
+    "phone": "",
+    "address": ""
+  }
+}

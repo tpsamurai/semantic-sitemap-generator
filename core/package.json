@@ -1,0 +1,28 @@
+{
+  "name": "semantic-sitemap-generator",
+  "version": "1.0.0",
+  "description": "Machine-generated semantic sitemap for trustworthy AI site understanding",
+  "main": "src/index.js",
+  "bin": { "semantic-sitemap": "./src/index.js" },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.3.1",
+    "natural": "^6.10.1",
+    "p-queue": "^7.4.1",
+    "robots-parser": "^3.0.1",
+    "xml2js": "^0.6.2",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1"
+  },
+  "engines": { "node": ">=16.0.0" },
+  "license": "MIT"
+}
